@@ -1,0 +1,61 @@
+/*pagina index*/
+/* line 3, ../../../Desktop/PreEntrega2 Pastor Alejandro/sass/estilos.scss */
+#index {
+  background-color: orangered; }
+
+/* line 6, ../../../Desktop/PreEntrega2 Pastor Alejandro/sass/estilos.scss */
+#barraIndex {
+  font-size: medium; }
+
+/*estilo de la navbar*/
+/* line 17, ../../../Desktop/PreEntrega2 Pastor Alejandro/sass/estilos.scss */
+.nav-link {
+  transition: color .3s; }
+
+/* line 27, ../../../Desktop/PreEntrega2 Pastor Alejandro/sass/estilos.scss */
+.nav-link:hover {
+  background-color: color white;
+  font-weight: bold;
+  color: color orangered; }
+
+/* line 32, ../../../Desktop/PreEntrega2 Pastor Alejandro/sass/estilos.scss */
+#barraNaranja {
+  background-color: orangered;
+  font-size: medium; }
+
+/*pagina about us*/
+/* line 42, ../../../Desktop/PreEntrega2 Pastor Alejandro/sass/estilos.scss */
+#aboutus {
+  background-color: orangered;
+  background-image: url(https://cdn.myportfolio.com/de8615a4-8b12-48ae-ab5f-deebd1665471/2d0304f0-d6e2-4140-bffb-334303fdea10_rw_1920.jpg?h=20ed1580cb659baa3dd91bacd96410dc);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*pagina contacto*/
+/* line 53, ../../../Desktop/PreEntrega2 Pastor Alejandro/sass/estilos.scss */
+#contacto {
+  background-color: orangered;
+  background-image: url(https://cdn.myportfolio.com/de8615a4-8b12-48ae-ab5f-deebd1665471/05e30b28-857e-47ce-9b49-dcc531b175e6_rw_1200.JPG?h=d01b470bb0d2a19e4741fd66fbbe0395);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*pagina portfolio*/
+/* line 63, ../../../Desktop/PreEntrega2 Pastor Alejandro/sass/estilos.scss */
+#portfolio {
+  background-color: orangered; }
+
+/* line 68, ../../../Desktop/PreEntrega2 Pastor Alejandro/sass/estilos.scss */
+.contenedor {
+  display: inline-block;
+  justify-content: center;
+  align-items: center; }
+  /* line 71, ../../../Desktop/PreEntrega2 Pastor Alejandro/sass/estilos.scss */
+  .contenedor .img {
+    transition: all 0.5s; }
+  /* line 74, ../../../Desktop/PreEntrega2 Pastor Alejandro/sass/estilos.scss */
+  .contenedor img:hover {
+    transform: scale(1.05); }
+
+/*# sourceMappingURL=estilos.css.map */

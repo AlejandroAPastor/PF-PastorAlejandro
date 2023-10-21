@@ -1,0 +1,77 @@
+/*pagina index*/
+
+#index{ background-color: orangered;
+}
+
+#barraIndex{ font-size: medium; 
+            
+             
+
+}
+
+
+
+
+/*estilo de la navbar*/
+
+.nav-link { transition: color .3s 
+
+}
+
+$color-del-hover: color white;
+$color-del-fondo-de-barra: color orangered;
+
+
+
+
+.nav-link:hover { background-color: $color-del-hover;
+                  font-weight: bold;
+                  color: $color-del-fondo-de-barra
+
+}
+#barraNaranja{ background-color: orangered;
+    font-size: medium;
+    
+
+
+}
+
+
+/*pagina about us*/
+
+#aboutus{ background-color: orangered;
+    background-image: url(https://cdn.myportfolio.com/de8615a4-8b12-48ae-ab5f-deebd1665471/2d0304f0-d6e2-4140-bffb-334303fdea10_rw_1920.jpg?h=20ed1580cb659baa3dd91bacd96410dc);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/*pagina contacto*/
+
+#contacto{ background-color: orangered;
+    background-image: url(https://cdn.myportfolio.com/de8615a4-8b12-48ae-ab5f-deebd1665471/05e30b28-857e-47ce-9b49-dcc531b175e6_rw_1200.JPG?h=d01b470bb0d2a19e4741fd66fbbe0395);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/*pagina portfolio*/
+
+#portfolio{ background-color: orangered 
+            
+}
+
+
+.contenedor{ display:inline-block;
+             justify-content: center;
+             align-items: center;
+        .img{ transition: all 0.5s;
+
+        }   
+        img:hover { transform: scale(1.05);
+
+        }
+    }
